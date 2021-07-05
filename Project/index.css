@@ -1,0 +1,557 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* css for header */
+
+.header{
+	height:  70px;
+	width: 100%;
+	/*background-color: #097fbe;*/
+	position: fixed;
+	display: flex;
+	justify-content: center;
+}
+
+/* css for container */
+
+.container{
+	width:  90%;
+	/*background-color: red;*/
+	display: flex;
+}
+
+/* css for logo */
+
+.logo{
+	height:  70px;
+	width:  15%;
+	/*background-color: yellow;*/
+	font-size: 40px;
+	font-family: Calibri;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	line-height: 70px;
+
+}
+
+/* css for nav */
+
+.nav{
+	height:  70px;
+	width:  35%;
+	/*background-color: green;*/
+	display: flex;
+}
+
+/* css for nav items */
+
+.nav-item
+{
+	width: 20%;
+	height: 70px;
+	/*background-color: gray;*/
+	font-family: Calibri;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+/* css for hovering on nav items */
+
+.nav-item:hover{
+	background-color: white;
+	color:  #097fbe;
+}
+
+/* css for header_container */
+
+.header_container
+{
+	justify-content: space-between;
+}
+
+/* css for banner */
+
+.banner{
+	height:  90vh;
+	width: 100%;
+	color: white;
+	background-color: gray;
+	background-image: url('./images/banner.jpg');
+	background-size: cover;
+}
+
+/* css for overlay */
+
+.overlay
+{
+	height: 90vh;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	align-items: center;
+}
+
+/* css for banner_text */
+
+.banner_text
+{
+	font-family: Calibri;
+	height: 300px;
+	width: 50%;
+	background-color: rgba(9,127,190,0.7);
+	display: flex;
+	align-items: center;
+}
+
+/* css for padd */
+
+.padd{
+	padding: 50px;
+}
+
+/* css for banner_title */
+
+.banner_title
+{
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+
+/* css for banner_desc */
+
+.banner_desc
+{
+	margin-bottom: 30px;
+}
+
+/* css for banner_btn */
+
+.banner_btn
+{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: Calibri;
+	border: 3px solid white;
+	cursor: pointer;
+	transition: 0.6s;
+}
+
+/* css for hovering on banner_btn */
+
+.banner_btn:hover
+{
+	background-color: white;
+	color: rgba(9,127,190,1);
+}
+
+/* css for services */
+
+.services
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #e6e6e6;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: Calibri;
+}
+
+/* css for service */
+
+.services_container
+{
+	margin-top: 50px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+/* css for service */
+
+.service
+{
+	height: 400px;
+	width: 40%;
+	background-color: white;
+	display: flex;
+	margin-top: 50px;
+}
+
+/* css for service_img */
+
+.service_img
+{
+	width: 40%;
+	height: 400px;
+	/*background: red;*/
+	display: flex;
+	overflow: hidden;
+}
+
+/* css for service_details */
+
+.service_details
+{
+	width: 60%;
+	height: 400px;
+	/*background: green;*/
+	display: flex;
+	align-items: center;
+}
+
+/* css for service_padd */
+
+.service_padd
+{
+	padding: 30px;
+}
+
+/* css for service_btn */
+
+.service_btn
+{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	background-color: rgba(9,127,190,1);
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: Calibri;
+	border: none/*3px solid white*/;
+	cursor: pointer;
+	transition: 0.6s;
+}
+
+.service_btn:hover{
+	color: blue;
+	background: rgba(9,127,190,0.2);
+}
+
+/**/
+
+.service_title
+{
+	margin-bottom: 15px;
+}
+
+/**/
+
+.service_desc
+{
+	margin-bottom: 30px;
+}
+
+/* css for about */
+
+.about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	/*background: gray;*/
+	display: flex;
+	flex-direction: column;
+	font-family: Calibri;
+	align-items: center;
+}
+
+/* css for about_container */
+
+.about_container
+{
+	margin-top: 30px;
+	line-height: 25px;
+	display: inline;
+}
+
+/* css for start_text */
+
+.start_text
+{
+	font-size: 40px;
+	font-weight: bold;
+	color: gray;
+}
+
+/* css for highlight */
+
+.highlight
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	background-color: rgba(9,127,190);
+	display: flex;
+	justify-content: center;
+}
+
+.highlight_container
+{
+	justify-content: space-between;
+}
+
+/* css for high_ele */
+
+.high_ele
+{
+	width: 22%;
+	height: 200px;
+	background-color: rgba(0,0,1,0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Calibri;
+	text-align: center;
+	color: white;
+}
+
+/* css for high_title */
+
+.high_title
+{
+	font-size: 60px;
+}
+
+.high_desc
+{
+	font-size: 20px;
+}
+
+.quote
+{
+	height: 250px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	width: 100%;
+	/*background-color: gray;*/
+	display: flex;
+	justify-content: center;
+	font-family: Calibri;
+}
+
+.quote_container
+{
+	flex-direction: column;
+	align-items: center;
+}
+
+.quote_title
+{
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+
+.quote_btn
+{
+	font-size: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	background-color: rgba(9,127,190,1);
+	color: white;
+	font-weight: bold;
+	font-family: Calibri;
+	border: none/*3px solid white*/;
+	cursor: pointer;
+	transition: 0.6s;
+}
+
+/* css for portfolio */
+
+.portfolio
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #e4e4e4;
+	font-family: Calibri;
+}
+
+.portfolio_container
+{
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.project
+{
+	width: 25%;
+	height: 300px;
+	background-color: red;
+	display: flex;
+}
+
+.project_1
+{
+	background-image: url('https://images.pexels.com/photos/2294342/pexels-photo-2294342.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-size: cover;
+}
+
+.project_2
+{
+	background-image: url('https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-size: cover;
+	align-items: flex-end;
+}
+
+.project_3
+{
+	background-image: url('https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-size: cover;
+}
+
+.project_4
+{
+	background-image: url('https://images.pexels.com/photos/730564/pexels-photo-730564.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-size: cover;
+	align-items: flex-end;
+}
+
+.project_5
+{
+	background-image: url('https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-size: cover;
+}
+
+.project_6
+{
+	background-image: url('https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-size: cover;
+	align-items: flex-end;
+}
+
+.project_7
+{
+	background-image: url('https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-size: cover;
+}
+
+.project_8
+{
+	background-image: url('https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-size: cover;
+	align-items: flex-end;
+}
+
+.project_title
+{
+	text-indent: 30px;
+	color:  white;
+	width: 100%;
+	height: 150px;
+	line-height: 150px;
+	background-color: rgba(16,128,234,0.5);
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.project_title:hover
+{
+	height: 300px;
+	line-height: 300px;
+}
+
+.footer
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #353535;
+	display: flex;
+	justify-content: center;
+}
+
+.footer_child
+{
+	height: 300px;
+	width: 25%;
+	/*background-color: gray;*/
+	font-family: Calibri;
+	display: flex;
+	justify-content: center;
+}
+
+.footer_child_1
+{
+	align-items: center;
+	color: white;
+	font-size: 30px;
+}
+
+ul
+{
+	margin-top: 40px;
+}
+
+li
+{
+	list-style-type: none;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.first
+{
+	font-size: 22px;
+}
+
+.footer_child_4
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_container
+{
+	width: 80%;
+	justify-content: space-between;
+}
+
+.social_icon
+{
+	height: 50px;
+	width: 50px;
+	/*background-color: white;*/
+	background-size: cover;
+}
+
+.si_1
+{
+	background-image: url('./images/fb.png');
+}
+
+.si_2
+{
+	background-image: url('./images/gplus.png');
+}
+
+.si_3
+{
+	background-image: url('./images/instagram.png');
+}
+
+.si_4
+{
+	background-image: url('./images/linkedin.png');
+}
